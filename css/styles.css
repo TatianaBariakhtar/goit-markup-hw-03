@@ -102,7 +102,30 @@ margin-left: auto;}
     .contact-info-link:focus{
         color: #404bbf;
     }
-    .hero
+    .container-great{display: block;
+        height: 600px;
+        padding-top: 188px;
+        padding-bottom: 292px;
+    }
+    
+
+    .hero-button{display: block;
+    width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    border-radius: 4px;
+  
+
+}
+    .container-hero
+    {width: 496px;     
+        height: 120px;        
+        
+        margin: 0 auto;
+}
+.hero-title{display: block;
+padding-bottom: 48px;}
+.hero
      {background-color: #2e2f42;}
      .hero-button{
         font-family: "Roboto", sans-serif;
@@ -112,6 +135,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
      }
+     
+ 
+    .hero-title{display: flex;
+    align-items: center;}
      .hero-button:hover {;
         background-color: #404BBF}
      .hero-button:focus {background-color: #404BBF}
@@ -133,6 +160,16 @@ color: #fff;
             .hero-button:hover,
             .hero-button:focus {color: #404BBF}
             .about{color: #2e2f42}
+    .about-list{display: flex;
+    gap: 24px;}
+    .about-item 
+    { height: 104px;
+        width: calc((100% - 3 * 24px) / 4);}
+    .section-about{display: block;
+    padding-top: 120px;
+padding-bottom: 67px;}
+
+
     .about-subtitle, .team-name, .portfolio-project-title
     {font-weight: 500;
         font-size: 20px;
