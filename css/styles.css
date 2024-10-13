@@ -34,6 +34,7 @@ gap: 40px;}
 .header-logo {padding: 24px 0;
 
 margin-right: 76px;}
+img {display: block;}
 
 
 
@@ -199,7 +200,8 @@ color: #fff;
             .about{color: #2e2f42
                 padding: 120px 0;}
                 
-    .section-about{padding: 120px 0;}            
+   
+.about {padding: 120px 0;}           
 
     .about-list{display: flex;
     gap: 24px;}
